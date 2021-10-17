@@ -7,7 +7,7 @@ class WellcomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          child: Text('Wellcome!!'),
+          child: Text('Wellcome all!!'),
         ),
       ),
     );
