@@ -1,3 +1,4 @@
+import 'package:demo_flutter/component/table_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -9,12 +10,9 @@ class DataPage extends StatelessWidget {
         title: Text('Menú Secundaria'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Container(
-          child: Text('Vista Secundaria'),
-        ),
-      ),
+      body: const TableData(),
     );
 
 }
 }
+
